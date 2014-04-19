@@ -14,6 +14,7 @@ sudo apt-get intall git
 
 # Git Commands
 
+## Initiating Git repo
 * Go to the folred you have created now:
 
 * ```git init``` - tells that this folder is a Git repository
@@ -31,7 +32,17 @@ origin  git@github.com:YourGitName/FolderName.git (push)
 
 * ```git pull origin master``` - gets files from repository
 
+## Git add commands
+* ```git add .``` - stages new + modified files in directory
 
-<!-- git add -
-git commit -
- -->
+* ```git add -u ``` - stages modified + deleted files
+
+* ```git add -A``` - does both above
+
+* ```git rm <filename>``` - to remove files from the working tree and the index, again before using the commit command;\
+
+## Git commit commands
+
+* ```git commit -m 'msg about what new in this commit' - record changes to the repository
+
+## Git Branch commands
