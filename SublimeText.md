@@ -54,7 +54,7 @@ Essential key combinations:
 * ctrl + shift + j - select all code that shares immediate indentation
 * ctrl + shift + a - select everything inside the current HTML tag
 * ctrl + shift + v - pasting with indentation
-
+===============================================================================
 * alt + . - Close Tag
 * ctrl + p - Show the go to overlay panel
 * ctrl + shift + p - Show the command overlay panel
