@@ -32,3 +32,10 @@ $ (env)yourpc@something:~/folder/folder/etc/
 To install package in your
 $ pip install <package-name>
 ```
+
+## Django
+To install Django, you can do it either in your virtualEnv or globally, and all you need to do is to write this command:
+```
+pip install Django
+```
+p.s. If you are installing Django globally use this command instead ``` sudo pip install Django```
