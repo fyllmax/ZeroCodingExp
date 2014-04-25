@@ -29,7 +29,8 @@ After activating your vurtualenv you will see something like this:
 ```
 $ (env)yourpc@something:~/folder/folder/etc/
 ```
-To install package in your
+To install package with pip:
+```
 $ pip install <package-name>
 ```
 
