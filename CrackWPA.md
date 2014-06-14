@@ -1,12 +1,12 @@
 # How to crack wpa/wpa2 passwords with linux (tested on ubuntu and Elementary OS)
 
-In order to crack wifi passwords with linux you need to install aircrack-ng and reaver
+In order to crack wifi passwords with linux you need to install __aircrack-ng and reaver__
 
 How to isntall aircrack-ng: www.aircrack-ng.org/install.html
 
-Downloading reaver: https://code.google.com/p/reaver-wps/downloads/list
+Downloading reaver: code.google.com/p/reaver-wps/downloads/list
 
-You might also need to install on you computer libpcap-dev and libsqlite3-dev, in order to do that just type the following lines in the terminal:
+You might also need to install on you computer __libpcap-dev__ and __libsqlite3-dev__, in order to do that just type the following lines in the terminal:
 ```
 sudo apt-get install libpcap-dev
 ```
@@ -17,9 +17,9 @@ sudo apt-get install libsqlite3-dev
 
 ## Now, Lets start the attack
 
-### if next lines of code does not work, all you need to do is to type sudo in fron of each one
+### if the next lines of code does not work, all you need to do is to type sudo in front of each one
 
-1. Firstly, discconect yourself from any wifi networks and type this code:
+1. Firstly, disconnect yourself from any wifi networks and type this code:
 ```
 airmon-ng start wlan0
 ```
