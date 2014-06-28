@@ -48,13 +48,13 @@ origin  git@github.com:YourGitName/FolderName.git (push)
 ## Git Branch commands
 
 To create new branch type:
-``` git checkout -b branch-name```
+* ``` git checkout -b branch-name```
 
-To check for branches
-``` git branch```
+To check for branches:
+* ```git branch```
 
-To switch to another branch
-```git checkout branch-name```
+To switch to another branch:
+* ```git checkout branch-name```
 
-To push updated files
-```git push origin branch-name```
+To push updated files:
+* ```git push origin branch-name```
