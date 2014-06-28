@@ -43,7 +43,7 @@ origin  git@github.com:YourGitName/FolderName.git (push)
 
 ## Git commit commands
 
-* ```git commit -m 'msg about what new in this commit' - record changes to the repository
+* ```git commit -m 'msg about what new in this commit'``` - record changes to the repository
 
 ## Git Branch commands
 
