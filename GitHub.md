@@ -46,3 +46,15 @@ origin  git@github.com:YourGitName/FolderName.git (push)
 * ```git commit -m 'msg about what new in this commit' - record changes to the repository
 
 ## Git Branch commands
+
+To create new branch type:
+``` git checkout -b branch-name```
+
+To check for branches
+``` git branch```
+
+To switch to another branch
+```git checkout branch-name```
+
+To push updated files
+```git push origin branch-name```
