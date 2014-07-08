@@ -1,12 +1,13 @@
-# Lets install bower
+## Lets fistly install bower
 
-``` npm install -g bower ````
+```$ npm install -g bower ```
 
-# Now we need to initialize **bower.json**
+## Now we need to initialize **bower.json**
 
-``` bower init ```
+```$ bower init ```
 
-> At the end your bower.json will look like this example:
+### At the end your bower.json will look like this example:
+
 {
   "name": "my-project",
   "version": "1.0.0",
@@ -31,10 +32,10 @@
   }
 }
 
-# To install all dependecies you do this:
-```bower install```
+## To install all dependencies you do this:
+```$ bower install```
 
-# To add more dependecies, its done like this:
+## To add more dependencies, its done like this:
 
-``` bower install <dependecies> --save```
+```$ bower install <dependency> --save```
 
