@@ -1,4 +1,4 @@
-## Lets fistly install bower
+## Lets firstly install [bower](http://bower.io)
 
 ```$ npm install -g bower ```
 
