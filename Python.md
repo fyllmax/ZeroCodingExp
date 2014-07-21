@@ -40,3 +40,8 @@ To install Django, you can do it either in your virtualEnv or globally, and all 
 pip install Django
 ```
 p.s. If you are installing Django globally use this command instead ``` sudo pip install Django```
+
+To check what packages you have installed so far do::
+```
+$ pip freeze
+```
