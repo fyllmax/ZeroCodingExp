@@ -1,5 +1,4 @@
 ## Lets firstly install [bower](http://bower.io)
-it will install bower globaly
 
 ```$ npm install -g bower ```
 
