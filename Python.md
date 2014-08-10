@@ -33,15 +33,23 @@ To install package with pip:
 ```
 $ pip install <package-name>
 ```
+To install all packages located in requirments.txt
+```
+$ pip install -r requirements.txt
+```
 
 ## Django
 To install Django, you can do it either in your virtualEnv or globally, and all you need to do is to write this command:
 ```
-pip install Django
+$ pip install Django
 ```
-p.s. If you are installing Django globally use this command instead ``` sudo pip install Django```
+p.s. If you are installing Django globally use this command instead ```$ sudo pip install Django```
 
 To check what packages you have installed so far do::
 ```
 $ pip freeze
+```
+To create requirments.txt
+```
+$ pip freeze > requirments.txt
 ```
