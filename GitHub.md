@@ -15,13 +15,13 @@ $ sudo apt-get intall git
 # Git Commands
 
 ## Initiating Git repo
-* Go to the folred you have created now:
+Go to the folred you have created now:
 
 * ```$ git init``` - tells that this folder is a Git repository
 
 * ```$ git remote add <name_of_remote> <url_to_remote>``` - connects this folder to your Git repository
 
-* Here is an example:
+Here is an example:
 
 * ```$ git remote add origin git@github.com:YourGit/TestGit.git```
 
