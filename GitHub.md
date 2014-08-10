@@ -21,13 +21,17 @@ $ sudo apt-get intall git
 
 * ```$ git remote add <name_of_remote> <url_to_remote>``` - connects this folder to your Git repository
 
+* Here is an example:
+
+* ```$ git remote add origin git@github.com:YourGit/TestGit.git```
+
 * ```$ git remote -v``` - checks if the folder is connected to the Git repository, if everything is fine you will see this:
 ```
 origin  git@github.com:YourGitName/FolderName.git (fetch)
 origin  git@github.com:YourGitName/FolderName.git (push)
 ```
 
-* ```$ git push -u origin master``` - this commands takes your files and puts them into your Git repositor. You are going to use it once, only for your first commit of new repository.
+* ```$ git push -u origin master``` - this commands takes your files and puts them into your Git repository. You are going to use it once, only for your first commit of new repository.
 ```git push <name_of_remote> <name_of_branch>``` - this command is what you are going to use for every other push to GitHub
 
 * ```$ git pull origin master``` - gets files from repository
