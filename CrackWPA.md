@@ -26,7 +26,7 @@ $ airmon-ng start wlan0
 
 2. Next you need to put your wifi adapter into monitor mode, which will list all available wifi signals around you.
 ```
-$ airdump-ng mon0
+$ airodump-ng mon0
 ```
 Once airdump list all availble wifi signals around, you can move to the next step, the actual attack.
 
