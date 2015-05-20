@@ -44,11 +44,11 @@ RVM is not a function, selecting rubies with 'rvm use ...' will not work. NOW WH
 
 You need to run the follow
 ```
-user$ source ~/.rvm/scripts/rvm
+$ source ~/.rvm/scripts/rvm
 ```
 then run this
 ```
-user$ type rvm | head -n 1
+$ type rvm | head -n 1
 ```
 and if you get ```rvm is a function```, AND the problem is solved!
 
